@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Everything in here should mostly stay constant -->
+
+<resources>
+    <string name="server_address">http://54.201.2.40/beacon</string>
+    <string name="subbranch_nearby">/location/nearby.php</string>
+    <string name="subbranch_update">/lcoation/update.php</string>
+</resources>

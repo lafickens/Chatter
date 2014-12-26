@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <ScrollView
+            android:id="@+id/activity_login_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                
+                <EditText
+		            android:id="@+id/activity_login_username"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="25dp"
+		            android:ems="10"
+		            android:hint="@string/activity_login_username_hint" >
+		
+		            <requestFocus />
+		        </EditText>
+		
+		        <EditText
+		            android:id="@+id/activity_login_password"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="40dp"
+		            android:ems="10"
+		            android:hint="@string/activity_login_password_hint"
+		            android:inputType="textPassword" />
+		
+		        <Button
+		            android:id="@+id/activity_login_button"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="50dp"
+		            android:text="@string/activity_login_button" />
+            </LinearLayout>
+	</ScrollView>
+</RelativeLayout>        

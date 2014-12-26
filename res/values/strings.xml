@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- UI prompts -->
+    <string name="app_name">Chatter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="activity_login_username_hint">Username</string>
+    <string name="activity_login_password_hint">Password</string>
+    <string name="activity_login_button">Login</string>
+    <string name="fragment_welcome_page1_textView">Hey there</string>
+    <string name="fragment_welcome_page2_login_button">Go Connect</string>
+    <string name="fragment_welcome_page2_textView">So,</string>
+
+    <!-- Error prompts -->
+    <string name="fragment_main_google_play_error">Google Play Service Error</string>
+    <string name="connection_error">Connection error</string>
+    <string name="con_err_try_later">Connection error. Please try later.</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Miscellaneous -->
+    <string name="preference_file_key">com.lafickens.Chatter.PREFERENCES</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+</resources>
